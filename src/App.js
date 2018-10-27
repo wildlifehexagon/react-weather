@@ -1,10 +1,6 @@
-import React, { Component } from "react"
-import "./App.css"
+// @flow
+import React from "react"
 
-class App extends Component {
-  render() {
-    return <div>Weather App</div>
-  }
-}
+const App = () => <div>Weather App</div>
 
 export default App
