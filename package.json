@@ -23,12 +23,6 @@
     "lint-staged": "^7.3.0",
     "prettier": "^1.14.3"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "airbnb"
-    ]
-  },
   "browserslist": [
     ">0.2%",
     "not dead",
