@@ -6,6 +6,9 @@
     "no-console": ["error", { "allow": ["log", "warn", "error"] }],
     "arrow-body-style": ["error", "as-needed"],
     "arrow-parens": ["error", "as-needed"],
+    "linebreak-style": "off",
+    "no-shadow": "off",
+    "import/no-unresolved": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
 }
