@@ -30,10 +30,14 @@ class WeatherContainer extends Component<Props> {
 
     return (
       <div>
-        <CurrentWeatherIcon />
-        <CurrentTemperature />
-        <UserLocation />
-        <CurrentConditions />
+        {current.data && (
+          <div>
+            <CurrentWeatherIcon />
+            <CurrentTemperature temperature={current.data.main.temp} />
+            <UserLocation location={current.data.name} />
+            <CurrentConditions weather={current.data.weather} />
+          </div>
+        )}
       </div>
     )
   }

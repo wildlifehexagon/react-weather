@@ -1,6 +1,17 @@
 // @flow
 import React from "react"
 
-const UserLocation = () => <div>user location</div>
+type Props = {
+  /** User's current location */
+  location: string,
+}
+
+/**
+ * Displays user's location
+ */
+
+const UserLocation = ({ location }: Props) => (
+  <div>user location: {location}</div>
+)
 
 export default UserLocation
