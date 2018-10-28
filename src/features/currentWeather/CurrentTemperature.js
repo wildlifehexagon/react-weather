@@ -1,6 +1,7 @@
 // @flow
 import React from "react"
 
+// celsius: (temp - 273.15).toFixed(1)
 const tempConverter = temp => (temp * (9 / 5) - 459.67).toFixed(1)
 
 type Props = {
@@ -13,7 +14,7 @@ type Props = {
  */
 
 const CurrentTemperature = ({ temperature }: Props) => (
-  <div>current temperature = {tempConverter(temperature)} °F</div>
+  <div>{tempConverter(temperature)} °F</div>
 )
 
 export default CurrentTemperature

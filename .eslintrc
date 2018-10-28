@@ -10,6 +10,7 @@
     "no-shadow": "off",
     "import/no-unresolved": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/jsx-first-prop-new-line": "off"
+    "react/jsx-first-prop-new-line": "off",
+    "react/jsx-one-expression-per-line": "off"
   }
 }

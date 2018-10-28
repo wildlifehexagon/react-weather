@@ -1,0 +1,3 @@
+```js
+<UserLocation location="Chicago" />
+```

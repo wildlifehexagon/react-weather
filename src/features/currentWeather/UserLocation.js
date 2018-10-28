@@ -10,8 +10,6 @@ type Props = {
  * Displays user's location
  */
 
-const UserLocation = ({ location }: Props) => (
-  <div>user location: {location}</div>
-)
+const UserLocation = ({ location }: Props) => <div>{location}</div>
 
 export default UserLocation

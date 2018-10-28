@@ -3,9 +3,9 @@ import React, { Component } from "react"
 import { connect } from "react-redux"
 
 import { fetchCurrentWeather } from "app/actions/currentActions"
-import CurrentConditions from "./currentWeather/CurrentConditions"
+// import CurrentConditions from "./currentWeather/CurrentConditions"
+// import CurrentWeatherIcon from "./currentWeather/CurrentWeatherIcon"
 import CurrentTemperature from "./currentWeather/CurrentTemperature"
-import CurrentWeatherIcon from "./currentWeather/CurrentWeatherIcon"
 import UserLocation from "./currentWeather/UserLocation"
 
 type Props = {
@@ -32,10 +32,10 @@ class WeatherContainer extends Component<Props> {
       <div>
         {current.data && (
           <div>
-            <CurrentWeatherIcon />
+            {/* <CurrentWeatherIcon /> */}
             <CurrentTemperature temperature={current.data.main.temp} />
             <UserLocation location={current.data.name} />
-            <CurrentConditions weather={current.data.weather} />
+            {/* <CurrentConditions weather={current.data.weather} /> */}
           </div>
         )}
       </div>
